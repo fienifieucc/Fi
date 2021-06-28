@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+ <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
  <link rel="icon" href="https://i.imgur.com/OOlaZEL.jpg" type="image/x-icon">
 <style>
@@ -238,14 +238,6 @@ h2{
 
 .fa {font-size:50px;}
 </style>
- 
-  <?php
-   if (isset($_REQUEST['submit'])){
-    $Name = $_REQUEST['name'];
-    $Email = $_REQUEST['email'];
-    
-   }
-   ?>
 </head>
 <body>
 
@@ -319,7 +311,7 @@ h2{
   </div>
 </div>
    <br><br>
-<form action="index.php">
+<form action="action_page.php">
   <div class="container">
     <h2>Subscribe to our Newsletter</h2>
     <p>Receive Fie Ni Fie Personal Notifications by Signing here</p><br>
@@ -329,12 +321,11 @@ h2{
 
   <div class="container" style="background-color:white">
     <input id="input" type="text" placeholder="Name" name="name" required>
-    <input id="input" type="text" placeholder="Email address" name="email" required>
+    <input id="input" type="text" placeholder="Email address" name="mail" required>
     <label>
       <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter <br>
     </label>
-    <input id="submit" type="submit" name="submit" value="Subscribe">
-  <?php echo("Your name is " . $Name. " and your email is " . $Email); ?>
+    <input id="submit" type="submit" value="Subscribe">
   </div>
 
   <div class="container">
@@ -383,12 +374,10 @@ h2{
            </button>
        </form>
 
-       <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-user'></i><br>
+       <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='far fa-user'></i><br>
            <div class="nav-name">About</div>
        </button>
            </div>
-
-   
 
 </body>
 </html>
