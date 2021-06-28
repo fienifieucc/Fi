@@ -101,8 +101,8 @@ button:hover {
    
   </div>
   <div class="tab">Login Info:
-    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
-    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+    <p><input placeholder="B) WO Password..." oninput="this.className = ''" name="uname"></p>
+    <p><input placeholder=" Confrimi wo Password..." oninput="this.className = ''" name="pword" type="password"></p>
   </div>
   <div style="overflow:auto;">
     <div style="float:right;">
