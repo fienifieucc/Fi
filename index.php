@@ -364,8 +364,8 @@ h2{
                <div class="nav-name">Contact</div>
            </button>
        </form>
-       <form action="viewCart.php" method="post">
-           <button id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class='fa fa-bullhorn'></i><br>
+       <form action="signup.php" method="post">
+           <button type="submit" id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class='fa fa-bullhorn'></i><br>
                <div class="nav-name">Info</div>
            </button>
        </form>
