@@ -310,7 +310,7 @@ h2{
   </div>
 </div>     
    <br><br>     
-<form action="action_page.php">
+<form action="index.php" method="post">
   <div class="container">
     <h2>Subscribe to our Newsletter</h2>
     <p>Receive Fie Ni Fie Personal Notifications by Signing here</p><br>
@@ -320,14 +320,14 @@ h2{
 
   <div class="container" style="background-color:white">
     <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
+    <input type="text" placeholder="Email address" name="email" required>
     <label>
       <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
     </label>
   </div>
 
   <div class="container">
-    <input id="submit" type="submit" value="Subscribe">
+    <input id="submit" type="submit" name="submit" value="Subscribe">
   </div>
 </form>
  
@@ -400,6 +400,14 @@ h2{
 
 
     </div>
- 
+ <?php
+   if (isset($_REQUEST['submit'])){
+    $Name = $_REQUEST['name'];
+    $Email = $_REQUEST['email'];
+    echo($Name);
+   }
+   
+   
+   ?>
 </body>
 </html>
