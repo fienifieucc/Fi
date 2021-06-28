@@ -4,25 +4,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
  <link rel="icon" href="https://i.imgur.com/OOlaZEL.jpg" type="image/x-icon">
 <style>
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
- input{
+ #input{
   width: 100%;
   margin-bottom: 16px;
   height: 42px;
  }
- 
+
  #submit{
+   font-size: 16px;
+   width: 100%;
+   margin-bottom: 16px;
+   height: 42px;
   background-color: rgb(0, 250, 180);
   border: none;
   color: white;
   border-radius: 6px;
+  margin-top: 10px;
  }
- 
- 
+
+
  #fa-cart{
   position: absolute;
   float: right;
@@ -58,6 +64,7 @@ sup{
 }
 
 #fa-home{
+  text-align: center;
   width: 10%;
   background-color: white;
   border: none;
@@ -66,19 +73,11 @@ sup{
   margin-top: px;
   margin-left: 20px;
   /* margin-right: 15%; */
-  color: red;
+  /* color: red; */
   font-family: calibri;
 }
 
-#home{
-  float: left;
-  
-  font-size: 15px;
-  margin-top: 0px;
-  margin-left: 8px;
-  color: red;
-  font-family: calibri;
-}
+
 
 
 #fa-user{
@@ -104,14 +103,15 @@ sup{
   /* margin-top: px; */
   /* float: right; */
 }
- 
+
  #Bottom_Nav{
+   left: 0px;
   text-align: center;
   padding-top: 5px;
   position: fixed;
   bottom: 0px;
   width: 100%;
-  height: auto;
+  height: 50px;
   padding-bottom: 10px;
   color: #9e9595;
   background-color: rgb(255, 255, 255);
@@ -137,13 +137,13 @@ sup{
   font-size: 15px;
   font-family: calibri;
 }
- 
- 
- 
+
+
+
 body {
  padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: red;
+  background-color: orangered;
 }
 h2{
   text-align: center;
@@ -196,7 +196,7 @@ h2{
   padding: 20px;
   background-color: #f1f1f1;
 }
- 
+
 .Add{
   width: 90%;
   margin-left: 0%;
@@ -233,10 +233,19 @@ h2{
   text-align: center;
   background-color: white;
   color: black;
+  width: auto;
 }
 
 .fa {font-size:50px;}
 </style>
+ 
+  <?php
+   if (isset($_REQUEST['submit'])){
+    $Name = $_REQUEST['name'];
+    $Email = $_REQUEST['email'];
+    
+   }
+   ?>
 </head>
 <body>
 
@@ -251,7 +260,7 @@ h2{
 <div class="row">
   <div class="column">
     <div class="card">
-    
+
 
         <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag -->
 <span class="glf-button" data-glf-cuid="f2841bbb-5a53-45d5-9545-77f3d3d7d356" data-glf-ruid="f7a93005-cd9c-4260-8554-5ec6eed72bb2" > See MENU & Order</span>
@@ -273,44 +282,44 @@ h2{
       <b> Evenings:<b> 18:00-19:30
        </div>
       </button>
-     
-       
+
+
     </div>
   </div>
 </div>
-        
-        
-        
-       
-        
+
+
+
+
+
          <div class="column">
     <div class="card">
       <button class="PIC">
       At Fie Ni Fie we offer of excellent quality and invite you to try our delicious food <p>
        The Key to our Success is Simple:providing quality consistent food that taste Good Every single time</p>
-       <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small feee for two foods in one dish a day or just 
+       <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small feee for two foods in one dish a day or just
         one in respect to your ordering </p>
        <p>We Pride ourselves on serving our customers delicious food. </p>
       </button>
-     
-       
+
+
     </div>
   </div>
-</div>   
-        
+</div>
+
      <div class="column">
     <div class="card">
       <button class="PIC">
        <h3>Follow Our Announcement page to know what new thing wee will bring </h3>
        <h4>Because there is going to be a variety of satisfying you here </h4>
       </button>
-     
-       
+
+
     </div>
   </div>
-</div>     
-   <br><br>     
-<form action="index.php" method="post">
+</div>
+   <br><br>
+<form action="index.php">
   <div class="container">
     <h2>Subscribe to our Newsletter</h2>
     <p>Receive Fie Ni Fie Personal Notifications by Signing here</p><br>
@@ -319,80 +328,35 @@ h2{
   </div>
 
   <div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="email" required>
+    <input id="input" type="text" placeholder="Name" name="name" required>
+    <input id="input" type="text" placeholder="Email address" name="email" required>
     <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter <br>
     </label>
+    <input id="submit" type="submit" name="submit" value="Subscribe">
+  <?php echo("Your name is " . $Name. " and your email is " . $Email); ?>
   </div>
 
   <div class="container">
-    <input id="submit" type="submit" name="submit" value="Subscribe">
+
   </div>
 </form>
- 
- 
- 
- 
- 
-     <div id="Bottom_Nav">
-        <form action="Homepage.php" method="post">
-            <button type="submit" id="fa-home"><i class='fa fa-home'></i><br>
-                <div class="nav-name">Home</div>
-            </button>
-        </form>
-        <form action="viewCart.php" method="post">
-            <button id="fa-cart-plus" name="viewcart"><i class='fas fa-cart-plus'></i><sup>
-
-                    <?php
-                    $total = "SELECT count(Price) as price FROM carts WHERE (User_id = '{$index1}')";
-                    $Totals = $conn->query($total);
-                    if ($Totals->num_rows > 0) {
-                        while ($Fetch = $Totals->fetch_assoc()) {
-                            $TOTAL = $Fetch['price'];
-                            echo ($TOTAL);
-                        }
-                    }
-
-                    ?>
-
-                </sup><br>
-                <div class="nav-name">Carts</div>
-            </button>
-        </form>
-        <form>
-            <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
-                <div class="nav-name">Live chat</div>
-            </button>
-        </form>
-
-        <!-- <form>
-            <button id="fa-user"><i class='fa fa-question'></i><br>
-                <div class="nav-name">Help</div>
-            </button>
-        </form> -->
 
 
-        <button id="fa-user" onclick="openAccount()"><i class='far fa-user'></i><br>
-            <div class="nav-name">User</div>
-        </button>
 
 
-       
 
 
-                <!-- <button style="float: right"><i class="fas fa-pen-alt"></i></button> -->
-            </div>
-            <form action="account.php" method="post">
+            <!-- <form action="account.php" method="post">
                 <button type="submit" class="btnlist">Account <i id="arrow" class="fas fa-angle-right "></i></button>
-            </form>
-            <form action="orderlist.php" method="post">
+            </form> -->
+            <!-- <form action="orderlist.php" method="post">
                 <button type="submit" class="btnlist">My Orders <i id="arrow" class="fas fa-angle-right "></i></button>
             </form>
 
             <button class="btnlist">Saved items <i id="arrow" class="fas fa-angle-right "></i></button>
             <form action="HomeUnlogged.php" method="post">
-                <button type="submit" class="btnlist">Log out <i id="arrow" class="fas fa-angle-right "></i></button>
+                <button type="submit" class="btnlist">Log out <i id="arrow" class="fas fa-angle-right "></i></button> -->
 
             </form>
 
@@ -400,14 +364,31 @@ h2{
 
 
     </div>
- <?php
-   if (isset($_REQUEST['submit'])){
-    $Name = $_REQUEST['name'];
-    $Email = $_REQUEST['email'];
-    echo($Name);
-   }
+
+
+    <div id="Bottom_Nav">
+       <form action="Homepage.php" method="post">
+           <button type="submit" id="fa-home"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-phone'></i><br>
+               <div class="nav-name">Contact</div>
+           </button>
+       </form>
+       <form action="viewCart.php" method="post">
+           <button id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class='fa fa-bullhorn'></i><br>
+               <div class="nav-name">Info</div>
+           </button>
+       </form>
+       <form>
+           <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
+               <div class="nav-name">Menu</div>
+           </button>
+       </form>
+
+       <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-user'></i><br>
+           <div class="nav-name">About</div>
+       </button>
+           </div>
+
    
-   
-   ?>
+
 </body>
 </html>
