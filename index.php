@@ -362,9 +362,9 @@ h2{
 
 
     <div id="Bottom_Nav">
-       <form action="Homepage.php" method="post">
+       <form action="Homepage.php" method="post"><a href="Announcement.html"
            <button type="submit" id="fa-home"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-phone'></i><br>
-               <div class="nav-name">Contact</div>
+               <div class="nav-name">Contact</div></a>
            </button>
        </form>
        <form action="signup.php" method="post"><a href="signup.php">
@@ -377,7 +377,7 @@ h2{
                <div class="nav-name">Menu</div>
            </button>
        </form>
-           <a href ="abot.html">
+           <a href ="Abot.html">
        <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='far fa-user'></i><br>
         <div class="nav-name">About</div></a>
        </button>
