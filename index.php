@@ -372,9 +372,9 @@ h2{
             <div class="nav-name">Sign UP</div></a>
            </button>
        </form>
-       <form>
+       <form><a href="Foodmenu.html"
            <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
-               <div class="nav-name">Menu</div>
+               <div class="nav-name">Menu</div></a>
            </button>
        </form>
            <a href ="Abot.html">
