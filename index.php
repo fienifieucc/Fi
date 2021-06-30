@@ -290,11 +290,11 @@ h2{
          <div class="column">
     <div class="card">
       <button class="PIC"><div  style="font-family: 'Akaya Telivigala';">
-      At Fie Ni Fie we offer of excellent quality and invite you to try our delicious food <p>
+      At Fie Ni Fie we offer  excellent quality food and invite you to try our delicious food <p>
        The Key to our Success is Simple:providing quality consistent food that taste Good Every single time</p>
-       <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small feee for two foods in one dish a day or just
+       <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small fee for two foods in one dish a day or just
         one in respect to your ordering </p>
-       <p>We Pride ourselves on serving our customers delicious food. </p>
+       <p>Y3 pridei yen ho in serving yen customers Edziban d33d3. </p>
        </button></div>
 
 
@@ -305,7 +305,7 @@ h2{
      <div class="column">
     <div class="card">
       <button class="PIC">
-       <h3>Follow Our Announcement page to know what new thing wee will bring </h3>
+       <h3>Follow Our Announcement page to know what new thing we will bring </h3>
        <h4>Because there is going to be a variety of satisfying you here </h4>
       </button>
 
