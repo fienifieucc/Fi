@@ -362,9 +362,9 @@ h2{
 
 
     <div id="Bottom_Nav">
-       <form action="Homepage.php" method="post"><a href="Announcement.html"
-           <button type="submit" id="fa-home"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-phone'></i><br>
-               <div class="nav-name">Contact</div></a>
+       <form action="Homepage.php" method="post"><a href="Announcement.html">
+           <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
+               <div class="nav-name">Info</div></a>
            </button>
        </form>
        <form action="signup.php" method="post"><a href="signup.php">
