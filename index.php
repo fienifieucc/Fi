@@ -368,20 +368,20 @@ h2{
            </button>
      </form></a>
        <form action="signup.php" method="post"><a href="signup.php">
-           <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 18px; margin-left: 5px;" class="fa fa-sign-in" ></i>
+           <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 22px; margin-left: 5px;" class="fa fa-sign-in" ></i>
             <div class="nav-name">Sign UP</div></a>
            </button>
        </form>
        <form><a href="Foodmenu.html">
            <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
-               <div class="nav-name">Menu</div></a>
-           </button>
+               <div class="nav-name">Menu</div>
+        </button></a>
        </form>
          <form>  <a href ="Abot.html">
        <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class='far fa-user'></i><br>
-        <div class="nav-name">About</div></a>
-           </button>
+        <div class="nav-name">About</div>
+          </button></a></form>
            </div>
-</form>
+
 </body>
 </html>
