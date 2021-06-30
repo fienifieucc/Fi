@@ -361,8 +361,8 @@ h2{
     </div>
 
 
-    <div id="Bottom_Nav">
-       <form action="Homepage.php" method="post"><a href="Announcement.html">
+    <div id="Bottom_Nav"><a href="Announcement.html">
+       <form action="Homepage.php" method="post">
            <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
                <div class="nav-name">Info</div></a>
            </button>
@@ -372,13 +372,13 @@ h2{
             <div class="nav-name">Sign UP</div></a>
            </button>
        </form>
-       <form><a href="Foodmenu.html">
+       <form  action="signup.php" method="post"><a href="Foodmenu.html">
            <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
-               <div class="nav-name">Menu</div>
-        </button></a>
+            <div class="nav-name">Menu </a>></div>
+        </button>
        </form>
-         <form>  <a href ="Abot.html">
-       <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class='far fa-user'></i><br>
+         <form   action="signup.php" method="post">  <a href ="Abot.html">
+       <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class="fas fa-address-card"></i><br>
         <div class="nav-name">About</div>
           </button></a></form>
            </div>
