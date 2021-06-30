@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
  <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel='stylesheet'>
  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -306,7 +306,7 @@ h2{
      <div class="column">
     <div class="card">
       <button class="PIC">
-       <h3 Style="font-family: 'Bangers';font-size:24px;ont-weight:10px;color:#995243;">Followooo follow  Our Announcement page to know what new thing we will bring </h3>
+       <h3 Style="font-family: 'Carter One';font-size:24px;ont-weight:10px;color:#995243;">Followooo follow  Our Announcement page to know what new thing we will bring </h3>
        <h4>Because there is going to be a variety of satisfying you here </h4>
       </button>
 
