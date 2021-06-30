@@ -268,8 +268,8 @@ h2{
 
   <div class="column">
     <div class="card">
-      <button class="PIC"><img src="bicycle.jpg" >
-       <h3 style="font-size:28px;font-family: 'Aclonica';"> Delivery Time <h3> <br>
+      <button class="PIC">
+       <h3 style="font-size:28px;font-family: 'Aclonica';"> Delivery Time <h3><img src="bicycle.jpg"  style="width:50%;" > <br>
         <div style="font-size:22px;">
       <b> Afternoons:<b> 12:30-14:00 &
                    15:00-16:30 <br><br><br>
