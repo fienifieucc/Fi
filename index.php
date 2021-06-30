@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
@@ -268,7 +269,7 @@ h2{
   <div class="column">
     <div class="card">
       <button class="PIC">
-       <h3 style="font-size:28px;"> Delivery Time <h3> <br>
+       <h3 style="font-size:28px;font-family: 'Aclonica';"> Delivery Time <h3> <br>
         <div style="font-size:22px;">
       <b> Afternoons:<b> 12:30-14:00 &
                    15:00-16:30 <br><br><br>
