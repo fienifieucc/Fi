@@ -266,9 +266,9 @@ h2{
 
 
 
-  <div class="column"><img src="Bicycle.jpg" >
+  <div class="column">
     <div class="card">
-      <button class="PIC">
+      <button class="PIC"><img src="bicycle.jpg" >
        <h3 style="font-size:28px;font-family: 'Aclonica';"> Delivery Time <h3> <br>
         <div style="font-size:22px;">
       <b> Afternoons:<b> 12:30-14:00 &
