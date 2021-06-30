@@ -368,7 +368,7 @@ h2{
            </button>
        </form>
        <form action="signup.php" method="post"><a href="signup.php">
-           <button type="submit" id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class='fa fa-bullhorn'></i><br>
+           <button type="submit" id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class='fa-sign-in'></i><br>
             <div class="nav-name">Sign UP</div></a>
            </button>
        </form>
@@ -377,10 +377,10 @@ h2{
                <div class="nav-name">Menu</div></a>
            </button>
        </form>
-           <a href ="Abot.html">
+          <form> <a href ="Abot.html">
        <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='far fa-user'></i><br>
         <div class="nav-name">About</div></a>
-       </button>
+           </button></form>
            </div>
 
 </body>
