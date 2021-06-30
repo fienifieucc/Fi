@@ -377,9 +377,9 @@ h2{
                <div class="nav-name">Menu</div>
            </button>
        </form>
-
+           <a href ="abot.html">
        <button id="fa-user" onclick="openAccount()"><i style="font-size: 18px; margin-left: 10px;" class='far fa-user'></i><br>
-           <div class="nav-name">About</div>
+        <div class="nav-name">About</div></a>
        </button>
            </div>
 
