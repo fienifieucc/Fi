@@ -295,7 +295,7 @@ h2{
        The Key to our Success is Simple:providing quality consistent food that taste Good Every single time</p>
        <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small fee for two foods in one dish a day or just
         one in respect to your ordering </p>
-       <p>Y3 pridei yen ho in serving yen customers Edziban d33d3. </p>
+       <p style="font-size:15px;">Y3 pridei yen ho in serving yen customers Edziban d33d3. </p>
        </button></div>
 
 
@@ -307,7 +307,7 @@ h2{
     <div class="card">
       <button class="PIC">
        <h3 Style="font-family: 'Carter One';font-size:24px;ont-weight:10px;color:#995243;">Followooo follow  Our Announcement page to know what new thing we will bring </h3>
-       <h4>Because there is going to be a variety of satisfying you here </h4>
+       <h4 Style="font-family: 'Aclonica'>Because there is going to be a variety of satisfying you here </h4>
       </button>
 
 
