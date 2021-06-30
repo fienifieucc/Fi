@@ -361,8 +361,8 @@ h2{
     </div>
 
 
-    <div id="Bottom_Nav"><a href="Announcement.html">
-       <form action="Homepage.php" method="post">
+    <div id="Bottom_Nav">
+       <form action="Homepage.php" method="post"><a href="Announcement.html">
            <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
                <div class="nav-name">Info</div></a>
            </button>
