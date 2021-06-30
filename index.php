@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel='stylesheet'>
  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
@@ -288,13 +289,13 @@ h2{
 
          <div class="column">
     <div class="card">
-      <button class="PIC">
+      <button class="PIC"><div  style="font-family: 'Akaya Telivigala';">
       At Fie Ni Fie we offer of excellent quality and invite you to try our delicious food <p>
        The Key to our Success is Simple:providing quality consistent food that taste Good Every single time</p>
        <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small feee for two foods in one dish a day or just
         one in respect to your ordering </p>
        <p>We Pride ourselves on serving our customers delicious food. </p>
-      </button>
+       </button></div>
 
 
     </div>
