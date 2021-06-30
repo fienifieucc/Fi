@@ -306,7 +306,7 @@ h2{
      <div class="column">
     <div class="card">
       <button class="PIC">
-       <h3 Style="font-family: 'Bangers';font-size:28px;">Followooo follow  Our Announcement page to know what new thing we will bring </h3>
+       <h3 Style="font-family: 'Bangers';font-size:24px;ont-weight:10px;color:#995243;">Followooo follow  Our Announcement page to know what new thing we will bring </h3>
        <h4>Because there is going to be a variety of satisfying you here </h4>
       </button>
 
