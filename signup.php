@@ -1,3 +1,36 @@
+<?php
+
+$servername = "remotemysql.com";
+$username = "l6R1Spcrg8";
+$password = "mRa8DKFd7V";
+$dbname = "l6R1Spcrg8";
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+$servername = "localhost";
+$username = "Majesty";
+$password = "JOE892550.bitcoin";
+$dbname = "majesty_store";
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+?>
+
+
+
+
+
 
 <!DOCTYPE html>
 <html>
