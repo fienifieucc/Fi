@@ -138,6 +138,7 @@ button:hover {
     <p><input placeholder=" Confrimi wo Password..." oninput="this.className = ''" name="pword" type="password"></p>
   </div>
   <div style="overflow:auto;">
+     <div>Already have an account? <a href="login.php">Sign in</a></div>
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
       <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
@@ -165,9 +166,11 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "none";
   } else {
     document.getElementById("prevBtn").style.display = "inline";
+    document.getElementById("nextBtn").style.display = "inline"
   }
   if (n == (x.length - 1)) {
     document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("nextBtn").style.display = "none";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
