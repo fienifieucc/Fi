@@ -377,7 +377,7 @@ h2{
             <div class="nav-name">Menu </a>></div>
         </button>
        </form>
-         <form   action="signup.php" method="post">  <a href ="Abot.html">
+         <form   action="signup.html" method="post">  <a href ="Abot.html">
        <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class="fas fa-address-card"></i><br>
         <div class="nav-name">About</div>
           </button></a></form>
