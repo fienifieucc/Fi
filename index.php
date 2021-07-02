@@ -367,7 +367,7 @@ h2{
                <div class="nav-name">Info</div></a>
            </button>
      </form></a>
-       <form action="signup.php" method="post"><a href="signup.php">
+       <form action="signup.php" method="post"><a href="signup.html">
            <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 22px; margin-left: 5px;" class="fa fa-sign-in" ></i>
             <div class="nav-name">Sign UP</div></a>
            </button>
