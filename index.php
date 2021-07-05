@@ -366,7 +366,7 @@ h2{
            <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
                <div style="font-size: 14px" class="nav-name">Info</div></a>
            </button>
-     </form></a>
+     </form>
        <form action="signup.html" method="post">
            <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 18px; margin-left: 5px;" class="fa fa-sign-in" ></i><br>
             <div style="font-size: 14px" class="nav-name">About</div>
@@ -377,8 +377,8 @@ h2{
             <div style="font-size: 14px" class="nav-name">Menu</div>
         </button>
        </form>
-<!--          <form   action="signup.html" method="post">  <a href ="Abot.html"> -->
-<!--        <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class="fas fa-address-card"></i><br>
+<!--          <form   action="signup.html" method="post">  <a href ="Abot.html">
+       <button id="fa-user" onclick="openAccount()"><i style="font-size: 22px; margin-left: 10px;" class="fas fa-address-card"></i><br>
         <div class="nav-name">About</div>
           </button></a></form> -->
            </div>
