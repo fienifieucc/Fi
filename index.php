@@ -368,13 +368,13 @@ h2{
            </button>
      </form></a>
        <form action="signup.html" method="post">
-           <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 22px; margin-left: 5px;" class="fa fa-sign-in" ></i>
+           <button type="submit" id="fa-cart-plus" name="viewcart"><br><i style="font-size: 18px; margin-left: 5px;" class="fa fa-sign-in" ></i>
             <div class="nav-name">About</div>
            </button>
        </form>
        <form  action="signup.php" method="post"><a href="Foodmenu.html">
-           <button id="fa-chat"><i class='fab fa-rocketchat'></i><br>
-            <div class="nav-name">Menu </a>></div>
+           <button id="fa-chat">&#9776;<br>
+            <div class="nav-name">Menu</div>
         </button>
        </form>
 <!--          <form   action="signup.html" method="post">  <a href ="Abot.html"> -->
