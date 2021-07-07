@@ -367,12 +367,12 @@ h2{
                <div style="font-size: 14px" class="nav-name">Info</div>
            </button>
      </form>
-       <form action="signup.html" method="post">
+       <form action="Abot.html" method="post">
            <button type="submit" id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class="fa fa-sign-in" ></i><br>
             <div style="font-size: 14px" class="nav-name">About</div>
            </button>
        </form>
-       <form  action="signup.php" method="post"><a href="Foodmenu.html">
+       <form  action="Foodmenu.html" method="post"><a href="Foodmenu.html">
            <button id="fa-chat">&#9776;<br>
             <div style="font-size: 14px" class="nav-name">Menu</div>
         </button>
