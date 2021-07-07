@@ -356,7 +356,7 @@ h2{
             <div style="font-size: 14px" class="nav-name">About</div>
            </button>
        </form>
-       <form  action="Foodmenu.html" method="post"><a href="Foodmenu.html">
+       <form  action="Foodmenu.html" method="post">
            <button id="fa-chat">&#9776;<br>
             <div style="font-size: 14px" class="nav-name">Menu</div>
         </button>
