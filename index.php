@@ -295,7 +295,7 @@ h2{
        The Key to our Success is Simple:providing quality consistent food that taste Good Every single time</p>
        <p>Our Food is very ,did i say very? very affordable since of the new way of serving our customers ie ,a small fee for two foods in one dish a day or just
         one in respect to your ordering </p>
-       <p style="font-size:25px;">Y3 pridei yen ho in serving yen customers Edziban d33d3. </p>
+       <p style="font-size:25px;">Y3 pridei y3n ho in serving y3n customers Edziban d33d3w. </p>
        </button></div>
 
 
