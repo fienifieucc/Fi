@@ -317,24 +317,7 @@ h2{
    <br><br>
 <form action="action_page.php">
   <div class="container">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>Receive Fie Ni Fie Personal Notifications by Signing here</p><br>
-      <p>You don't know, you might be the lucky one</p>
-    <p>we dey wedge you </p>
-  </div>
-
-  <div class="container" style="background-color:white">
-    <input id="input" type="text" placeholder="Name" name="name" required>
-    <input id="input" type="text" placeholder="Email address" name="mail" required>
-    <label>
-      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter <br>
-    </label>
-    <input id="submit" type="submit" value="Subscribe">
-  </div>
-
-  <div class="container">
-
-  </div>
+   
 </form>
 
 
