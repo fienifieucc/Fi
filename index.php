@@ -345,7 +345,7 @@ h2{
 
 
     <div id="Bottom_Nav">
-">
+
        <form action="Announcement.html" method="post">
            <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
                <div style="font-size: 14px" class="nav-name">Info</div>
