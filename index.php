@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Fie Ni Fie - Food delivery - Cape Coast - Order online</title>
+<meta name="description" content="Order online for Delivery. Here at Fie Ni Fie - Cape Coast you'll experience delicious Fast Food cuisine. 
+                                  Try our mouth-watering dishes, carefully prepared with fresh ingredients! At Fie Ni Fie, 
+                                  our recipe for success is simple – Great food & care makes customers return every time.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
  <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel='stylesheet'>
