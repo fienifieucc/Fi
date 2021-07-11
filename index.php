@@ -352,8 +352,8 @@ h2{
 <!--        <form action="Announcement.html" method="post"> -->
            <button type="submit" id="fa-cart-plus"><i style="font-size: 18px; margin-left: 10px;" class='fa fa-bullhorn'></i><br>
                <div style="font-size: 14px" class="nav-name">Info</div>
-<!--            </button> -->
-     </form>
+         </button> -->
+<!--      </form> -->
        <form action="Abot.html" method="post">
            <button type="submit" id="fa-cart-plus" name="viewcart"><i style="font-size: 18px; margin-left: 5px;" class="fa fa-sign-in" ></i><br>
             <div style="font-size: 14px" class="nav-name">About</div>
